@@ -42,6 +42,7 @@
     }
   },
   "devDependencies": {
+    "gena": "^0.1.0",
     "jspm": "^0.15.7",
     "marked": "^0.3.3",
     "normalize.css": "^3.0.3",

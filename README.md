@@ -1,35 +1,18 @@
-## Gena &mdash; A Static Site Generator built with Gulp and Handlebars
+## Gena
 
-### Install Gena
+a static site generator built with Gulp and Handlebars
 
-```sh
-git clone https://orkon@bitbucket.org/60devs/gena.git
-cd gena
-npm install
-npm link gena
-```
+### Run this demo
 
-### Dependencies for this site instance
+Online:
 
-Install jspm
+[https://gena.60devs.com](https://gena.60devs.com)
 
-```sh
-npm install jspm -g
-```
-
-or update it
-
-```sh
-npm update jspm -g
-```
-### Get a copy of this website
-
-```sh
-
-jspm dl-loader
-jspm install
-
-gena s
+or locally:
 
 ```
-
+  git clone https://github.com/60devs/gena-website.git
+  cd gena-website
+  npm install
+  gena s
+```
