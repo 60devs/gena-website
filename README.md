@@ -1,4 +1,4 @@
-## Gena &mdash; A Static Site Generator built with Gulp and Handlebars
+## Gena &emdash; A Static Site Generator built with Gulp and Handlebars
 
 ### Install Gena
 
