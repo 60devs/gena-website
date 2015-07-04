@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {{#block "head"}}
+    {{{embed "head"}}}
+  {{/block}}
+  <body>
+    <section class="main">
+      <div class="main-header">
+        <img class="logo" src="/img/logo300.png">
+        <p class="main-header-text">A Static Site Generator built with Gulp and Handlebars</p>
+        <button class="docs-btn">Try it now</button>
+      </div>
+      <div class="links">
+        <a href="https://github.com/60devs/gena">Docs</a>
+        <a href="https://github.com/60devs/gena">Github</a>
+        <a href="https://twitter.com/60devs">Twitter</a>
+      </div>
+    </section>
+    <section class="info">
+      {{{markdown 'README.md'}}}
+    </section>
+  </body>
+</html>

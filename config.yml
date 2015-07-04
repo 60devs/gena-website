@@ -1,0 +1,21 @@
+# Site settings
+title: Gena - A Static Site Generator
+email: hello@60devs.com
+description:
+url: "https://gena.60devs.com" # the base hostname & protocol for your site
+deploy:
+  method: 'rsync'
+  root: 'dist'
+  username: 'root'
+  hostname: '60devs.com'
+  destination: '/var/www/gena.60devs.com'
+build:
+  - handlebars
+  - public
+  - styles
+  - js
+dev-build:
+  - handlebars
+  - public
+  - styles-lite
+  - js
