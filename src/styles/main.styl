@@ -11,9 +11,10 @@ html, body
   height: 100%
   width: 100%
   min-height: 450px
-  color: #fff
+  color: #333
   text-align: center
-  background-color: #cf4646
+  background-color: #8fd532
+  position: relative
 
   &> .main-header
     padding-left: 1em
@@ -25,46 +26,47 @@ html, body
     transform: translate(-50%, -50%)
     width: 90%
 
+    &> .main-header-text
+      font-size: 18px
+      letter-spacing: 1px
+
     &> .logo
       width: auto
       margin: 0 auto
 
   & .links
-    width: auto
-    float: none
     position: absolute
-    position: absolute
-    transform-style: preserve-3d
-    top: 90%
-    left: 50%
-    transform: translate(-50%, -50%)
-    width: 90%
+    bottom: 0
+    left: 0
+    text-align:center
+    width: 100%
+    bottom: 20px
 
     &> a
-      color: white
+      color: #333
       text-decoration: none
       padding: 0 15px
-      border-right: 1px solid rgba(255,255,255,0.3)
+      border-right: 1px solid rgba(0,0,0,0.3)
+
     &> a:last-child
       border: none
 
 .docs-btn
-  transition: all 0.4s
   color: inherit
   padding: 15px 20px 16px
   vertical-align: top
   cursor: pointer
-  border: 1px solid #fff
+  border: 1px solid rgba(0,0,0,0.3)
   border-radius: 3px
   text-decoration: none
-  animation: fadein 2s
   text-shadow: none
   color: #333
   background-color: #fff
   font-size: 22px
+  margin-top: 1em
 
 .info
-  padding: 2em 5em
+  padding: 2em 10em
 
 @media (--up-to-smartphone-landscape)
   .info
