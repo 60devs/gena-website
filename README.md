@@ -6,13 +6,13 @@ a static site generator built with Gulp and Handlebars
 
 Online:
 
-[https://gena.60devs.com](https://gena.60devs.com)
+[http://60devs.github.io/gena-blog/](http://60devs.github.io/gena-blog/)
 
 or locally:
 
 ```
-  git clone https://github.com/60devs/gena-website.git
-  cd gena-website
-  npm install
+  npm install gena jspm gulp -g
+  mkdir gena-blog && cd gena-blog
+  gena init
   gena s
 ```
